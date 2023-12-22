@@ -2,19 +2,19 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
+// import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import { Author } from "./Author";
 import { Home } from "./Home";
 
 function AppRouter() {
-  const { loading } = useAppInit();
+//  const { loading } = useAppInit();
   return (
     <div id="wrapper">
-      <Router>
+      {/* <Router>
         <Header />
-        {loading ? (
+        { {loading ? (
           <p>Reticulating splines...</p>
         ) : (
           <Switch>
@@ -27,7 +27,10 @@ function AppRouter() {
           </Switch>
         )}
         <Footer />
-      </Router>
+      </Router> */}
+      <Header />
+      <Home />
+      <Footer />
     </div>
   );
 }

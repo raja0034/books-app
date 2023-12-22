@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./style-home.css";
-import { Link } from "react-router-dom";
+// import "./style-home.css";
+// import { Link } from "react-router-dom";
+import { Parser } from 'html-to-react';
 
 const rawHTML = `<div>
 <div class="main-container">
@@ -764,9 +765,13 @@ const rawHTML = `<div>
 
 export function Author() {
     return (
-      <div style={container}>
-      <div dangerouslySetInnerHTML={{ __html: rawHTML }}></div>
-    </div>);
+    //   <div style={container}>
+    //   <div dangerouslySetInnerHTML={{ __html: rawHTML }}></div>
+    // </div>);
+    `<div style={container}>
+    {Parser().parse(rawHTML)}
+  </div>`);
+
 }
 
 const container = {
