@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 // import "./style-home.css";
 // import { Link } from "react-router-dom";
 import { Parser } from 'html-to-react';
@@ -1072,15 +1072,12 @@ const rawHTML = `<div>
 </div>
 <div class="module-datepicker-container"></div>
 </div>`;
+const rawHTML1 = "<b>Hello World!</b>";
 export function Home() {
-//     return (<div style={container}>
-//         <div dangerouslySetInnerHTML={{ __html: rawHTML }}></div>
-//       </div>  
-//   );
-return (`<div style={container}>
+//    return (<div dangerouslySetInnerHTML={{ __html: "Hello" }}>World</div>);
+return (<div style={container}>
 {Parser().parse(rawHTML)}
-</div>`);
-
+</div>);
 }
 const container = {
     width: 500,

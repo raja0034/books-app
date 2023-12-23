@@ -764,13 +764,9 @@ const rawHTML = `<div>
 </div>`;
 
 export function Author() {
-    return (
-    //   <div style={container}>
-    //   <div dangerouslySetInnerHTML={{ __html: rawHTML }}></div>
-    // </div>);
-    `<div style={container}>
-    {Parser().parse(rawHTML)}
-  </div>`);
+    return (<div style={container}>
+        {Parser().parse(rawHTML)}
+        </div>);
 
 }
 
