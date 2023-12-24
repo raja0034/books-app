@@ -50,7 +50,7 @@ const rawHTML = `<main class="main-rows">
                  >
                 <div  class="uc-content">
                     <div                     >
-                                                                        <div class="fixed-ratio" style="padding-bottom: 150.03750937734%">
+                                                                        <div class="fixed-ratio" style="padding-bottom: 0%">
                                 <img class="image fixed-ratio-content "
                                      width="100%"
                                      height="100%"
@@ -234,7 +234,7 @@ const rawHTML = `<main class="main-rows">
                                 class="   module ModuleImage "
                                 dataModule-id="283"
 
-                                                                 style="display:block;max-width:380px;"
+                                                                 style="display:block;max-width:380px;height:380px"
                                 
                                 >
 
@@ -245,7 +245,7 @@ const rawHTML = `<main class="main-rows">
                  >
                 <div  class="uc-content">
                     <div                     >
-                                                                        <div class="fixed-ratio" style="padding-bottom: 150.03750937734%">
+                                                                        <div class="fixed-ratio" style="padding-bottom: 0%">
                                 <img class="image fixed-ratio-content "
                                      width="100%"
                                      height="100%"
@@ -295,7 +295,7 @@ const rawHTML = `<main class="main-rows">
                                 >
 
                                 <div class="uc-content">
-    <h2><span style="color: #000000;"><span style="text-transform: uppercase;">Ideas From Computer Science</h2>
+    <h2><span style="color: #000000;"><span style="text-transform: uppercase;">Ideas From Computer Science</span></span></h2>
 </div>                                </div>
                         </div>
                                                                                                                     
@@ -450,25 +450,20 @@ const rawHTML = `<main class="main-rows">
                     
                     
                                     </div>
-            <!-- </div>
-            <iframe src="https://player.vimeo.com/video/895417083?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="540" height="960" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="An introduction to this store for you"></iframe>
-                                                                                    </main>
                             <div class="push"></div>
-            </div> -->
+            </div>
+            </main>
             <div>
                 <ul>
                   <li>Watch this video to know more: <a href="https://vimeo.com/895417083">https://vimeo.com/895417083</a></li>
                 </ul>
             </div>
-        
-
     </div>
 </div>
 <div class="accounts-popup">
 <div class="loading-container">
     <div class="loading-spinner"></div>
 </div>
-<iframe id="accounts-iframe" style="border: none;"></iframe>
 </div>
 </div>
 <div class="module-datepicker-container"></div>

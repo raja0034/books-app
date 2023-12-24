@@ -7,7 +7,7 @@ function NavLinks() {
   return ( "" );
 }
 
-const rawHTML = `            <footer class="footer-rows "
+const rawHTML = `</div></div></div></div><footer class="footer-rows "
              style="">
 
             
@@ -64,7 +64,7 @@ const rawHTML = `            <footer class="footer-rows "
                     
                                     </div>
             </div>
-                                                </footer>`;
+                                                </footer></div></div></div></div>`;
 
 export function Footer() {
   //    return (<div dangerouslySetInnerHTML={{ __html: rawHTML }}></div>);

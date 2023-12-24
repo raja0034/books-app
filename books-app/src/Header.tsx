@@ -318,7 +318,7 @@ const rawHTML = `<div>
                                 >
 
                                 <a href='https://booksonsoftware.com'>
-                    <div class="fixed-ratio" style="padding-bottom: 33.333333333333%">
+                    <div class="fixed-ratio" style="padding-bottom: 0%">
                 <img
                     width="460px"
                     height="141px"
@@ -553,7 +553,7 @@ const rawHTML = `<div>
 
 export function Header() {
   //    return (<div dangerouslySetInnerHTML={{ __html: rawHTML }}></div>);
-  return (<div style={container}>
+  return (<div>
   {Parser().parse(rawHTML)}
   </div>);
   }

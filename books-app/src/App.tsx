@@ -6,6 +6,7 @@ import './App.css';
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import { Author } from "./Author";
+import Layout  from "./Layout";
 import { Home } from "./Home";
 
 function AppRouter() {
@@ -28,9 +29,7 @@ function AppRouter() {
         )}
         <Footer />
       </Router> */}
-      <Header />
-      <Home />
-      <Footer />
+      <Layout />
     </div>
   );
 }

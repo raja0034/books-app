@@ -144,7 +144,7 @@ const rawHTML = `<main class="main-rows">
                   <li>My Resume:      <a href="https://1drv.ms/w/s!Ashlm-Nw-wnWryOTCquuj_8z56pO">https://1drv.ms/w/s!Ashlm-Nw-wnWryOTCquuj_8z56pO</a></li>
                   <li>My LinkedIn:    <a href="https://www.linkedin.com/in/ravi-rajamani-2447a27">https://www.linkedin.com/in/ravi-rajamani-2447a27</a></li>
                   <li>My Calendar:    <a href="https://rravishankar.youcanbook.me/">https://rravishankar.youcanbook.me/</a></li>
-                  <li>My Books:       <a href="https://booksonsoftware.com/new">https://booksonsoftware.com/new</a></li>
+                  <li>My Books:       <a href="https://booksonsoftware.com/books/">https://booksonsoftware.com/books/</a></li>
                   <li>My Profile:     <a href="https://triplebyte.com/tb/ravi-rajamani-c0fheyo">https://triplebyte.com/tb/ravi-rajamani-c0fheyo</a></li>
                   <li>My Publication: <a href="https://store.servicenow.com/sn_appstore_store.do#!/store/application/7cd521173d102010fa9bea4da64bc97f/3.0.4">https://store.servicenow.com/sn_appstore_store.do#!/store/application/7cd521173d102010fa9bea4da64bc97f/3.0.4</a></li>
                 </ul>
